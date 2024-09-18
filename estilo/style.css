@@ -59,20 +59,29 @@ section.fundo_normal{
 
 section.fundo_imagem{
     background-color: #5e5b5b;
-    color:black;
+    color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 
 }
 section.fundo_imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: #383737;
+    background-color: rgba(56, 55, 55, 0.329);
 }
 
 section#img01{
-    background-image: url(..imagens/IMG_1.jpg);
+    background-image: url(../imagens/IMG_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 section#img02{
+    background-image: url(../imagens/img_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
 footer{
